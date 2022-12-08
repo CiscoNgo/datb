@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <!-- Link font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- Bootchap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link css -->
+    <link rel="stylesheet" href="./Css/GlobalStyle.css" />
+    <link rel="stylesheet" href="./Css/root.css" />
+    <link rel="stylesheet" href="./Css/trangchu.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="root">
+        <header class="header">
+          <!-- Do mo -->
+          <div id="op-5"></div>
+          <!-- nav -->
+          <div class="header_nav">
+            <div class="header_container">
+              <a href="#" class="logo">
+                <img src="./assets/imgs/logo.png" alt="" />
+              </a>
+              <div class="navbar">
+                <ul class="header_item">
+                  <li class="item-link">
+                    <a href="./index.html" class="header-link">Trang Chủ</a>
+                  </li>
+                  <li class="item-link">
+                    <a href="./sanpham.html" class="header-link">Sản Phẩm</a>
+                  </li>
+                  <li class="item-link">
+                    <a href="#" class="header-link">Chi tiết sản phẩm</a>
+                  </li>
+                  <li class="item-link">
+                    <a href="#" class="header-link">Quản Lý Danh Mục</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="info_icon">
+                <ul class="header_item">
+                  <li class="item-link">
+                    <a href="#" class="header-link">
+                      <i class="uil uil-search"></i>
+                    </a>
+                  </li>
+                  <li class="item-link">
+                    <a href="dangnhap.html" class="header-link">
+                      <i class="uil uil-user"></i>
+                    </a>
+                  </li>
+                  <li class="item-link">
+                    <a href="" class="header-link">
+                      <i class="uil uil-shopping-bag"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gioi thieu -->
+          <div class="intro">
+            <h1 class="nameweb">Đồ Gia Dụng Việt Nam</h1>
+            <p class="dis">Free ship toàn quốc</p>
+          </div>
+
+          <!-- Mo ta -->
+          <div class="description">
+            <!-- su dung bootchap -->
+            <div class="container px-4 rounded text-center">
+              <div class="row gx-5">
+                <div class="col">
+                  <div class="p-3 border des-cus">
+                    <span class="description_content">
+                      Đồ gia dụng mini là những sản phẩm gọn nhẹ, dễ sử dụng và
+                      tiết kiệm điện năng. Đối với sinh viên thì ngoài dụng cụ
+                      học tập ra thì đồ gia dụng nấu ăn cũng quan trọng không
+                      kém.
+                    </span>
+                    <span class="description_content">
+                      Ông bà ta có câu “Có thực mới vực được đạo”. Chính vì thế
+                      để có sức khỏe tốt nhất cho việc học tập thì ăn uống phải
+                      đảm bảo.
+                    </span>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="">
+                    <img
+                      class="w-100 rounded border"
+                      src="./assets/imgs/anh1.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <main>
+          <!-- Carousel dung bootchap-->
+          <div class="carousel_main">
+            <!-- back video -->
+            <video autoplay id="video_bg" loop="loop" muted volumn="0">
+              <source src="./assets/video/videobg2.mp4" />
+            </video>
+            <!--  -->
+            <div class="row container" style="align-items: center">
+              <div class="col-sm-6">
+                <div
+                  id="carouselExampleDark"
+                  class="carousel slide_move carousel-dark slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner border rounded border-white">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                      <img
+                        src="./assets/imgs/2.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>
+                          Some representative placeholder content for the first
+                          slide.
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="carousel-item border rounded border-white"
+                      data-bs-interval="2000"
+                    >
+                      <img
+                        src="./assets/imgs/2.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>
+                          Some representative placeholder content for the second
+                          slide.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="carousel-item border rounded border-white">
+                      <img
+                        src="./assets/imgs/2.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>
+                          Some representative placeholder content for the third
+                          slide.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <!-- mo ta noi dung -->
+                <div class="row mb-4">
+                  <div class="col-6">
+                    <img
+                      src="./assets/imgs/1.jpg"
+                      class="w-100 h-140 d-block border rounded border-white"
+                      alt=""
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="top"
+                      title="Sao Thủy - Mercury"
+                    />
+                  </div>
+                  <div class="col-6">
+                    <img
+                      src="./assets/imgs/2.jpg"
+                      class="w-100 h-140 d-block border rounded border-white"
+                      alt=""
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="top"
+                      title="Sao Thủy - Mercury"
+                    />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-6">
+                    <img
+                      src="./assets/imgs/3.jpg"
+                      class="w-100 h-140 d-block border rounded border-white"
+                      alt=""
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="bottom"
+                      title="Sao Thủy - Mercury"
+                    />
+                  </div>
+
+                  <div class="col-6">
+                    <img
+                      src="./assets/imgs/3.jpg"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="right"
+                      title="Sao Thủy - Mercury"
+                      class="w-100 h-140 d-block border rounded border-white"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Gioi thieu -->
+            <div class="row form-g p-4 mt-5 container border border-white">
+              <div class="col-sm-4 form-g-col">
+                <img
+                  class="logo-school"
+                  src="./assets/imgs/1024px-Logo_Dai_hoc_Can_Tho.svg.png"
+                />
+              </div>
+              <div class="col-sm-8">
+                <div class="row">
+                  <h1 class="title-header"><p>Giới Thiệu</p></h1>
+                </div>
+                <div class="row">
+                  <span class="content-title">
+                    Hiện nay sự xuất hiện các món đồ gia dụng ở trong gia đình
+                    của mỗi người là rất phổ biến. Nhận thức được điều này, nhóm
+                    05 đã tạo ra một website mà tại đây mọi người có thể dễ dàng
+                    tìm kiếm được những món đồ phù hợp cho gia đình của mình.
+                    Với giao diện trực quan, bắt mắt và kho hàng đa dạng. Nhóm
+                    05 hy vọng website sẽ phát triển hơn nữa trong tương lai và
+                    là một phần trong các gia đình của mọi người.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-body container border_body">
+            <!--  -->
+            <div class="mt-5 bg-content-title">
+              <div class="row">
+                <h1 class="title-header"><p>Xoong, nồi, chảo</p></h1>
+              </div>
+              <div class="row">
+                <span class="content-title">
+                  Đầu tiên phải kể đến dụng cụ cần chuẩn bị cho căn bếp đó là
+                  xoong, nồi, chảo, nồi cơm điện giúp các bạn chuẩn bị các bữa
+                  ăn trong ngày, đảm bảo được ăn ngon và an toàn vệ sinh thực
+                  phẩm với các món ăn tự chế biến.
+                </span>
+              </div>
+            </div>
+            <div class="mt-5 bg-content-title">
+              <div class="row">
+                <h1 class="title-header"><p>Xoong, nồi, chảo</p></h1>
+              </div>
+              <div class="row">
+                <span class="content-title">
+                  Đầu tiên phải kể đến dụng cụ cần chuẩn bị cho căn bếp đó là
+                  xoong, nồi, chảo, nồi cơm điện giúp các bạn chuẩn bị các bữa
+                  ăn trong ngày, đảm bảo được ăn ngon và an toàn vệ sinh thực
+                  phẩm với các món ăn tự chế biến.
+                </span>
+              </div>
+            </div>
+            <div class="mt-5 bg-content-title">
+              <div class="row">
+                <h1 class="title-header"><p>Xoong, nồi, chảo</p></h1>
+              </div>
+              <div class="row">
+                <span class="content-title">
+                  Đầu tiên phải kể đến dụng cụ cần chuẩn bị cho căn bếp đó là
+                  xoong, nồi, chảo, nồi cơm điện giúp các bạn chuẩn bị các bữa
+                  ăn trong ngày, đảm bảo được ăn ngon và an toàn vệ sinh thực
+                  phẩm với các món ăn tự chế biến.
+                </span>
+              </div>
+            </div>
+            <div class="mt-5 bg-content-title">
+              <div class="row">
+                <h1 class="title-header"><p>Xoong, nồi, chảo</p></h1>
+              </div>
+              <div class="row">
+                <span class="content-title">
+                  Đầu tiên phải kể đến dụng cụ cần chuẩn bị cho căn bếp đó là
+                  xoong, nồi, chảo, nồi cơm điện giúp các bạn chuẩn bị các bữa
+                  ăn trong ngày, đảm bảo được ăn ngon và an toàn vệ sinh thực
+                  phẩm với các món ăn tự chế biến.
+                </span>
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer bg-dark text-center text-white">
+          <!-- Grid container -->
+          <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="uil uil-facebook-f"></i
+              ></a>
+
+              <!-- Twitter -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="uil uil-twitter"></i
+              ></a>
+
+              <!-- Google -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="uil uil-google"></i
+              ></a>
+
+              <!-- Instagram -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="uil uil-instagram-alt"></i
+              ></a>
+
+              <!-- Linkedin -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="uil uil-linkedin"></i
+              ></a>
+
+              <!-- Github -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="uil uil-github"></i
+              ></a>
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Form -->
+            <section class="">
+              <form action="">
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center">
+                  <!--Grid column-->
+                  <div class="col-auto">
+                    <p class="pt-2">
+                      <strong>Sign up for our newsletter</strong>
+                    </p>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-5 col-12">
+                    <!-- Email input -->
+                    <div class="form-outline form-white mb-4">
+                      <input
+                        type="email"
+                        id="form5Example21"
+                        class="form-control"
+                      />
+                      <label class="form-label" for="form5Example21"
+                        >Email address</label
+                      >
+                    </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-auto">
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-outline-light mb-4">
+                      Subscribe
+                    </button>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </form>
+            </section>
+            <!-- Section: Form -->
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+              <p>Đồ gia dụng Cần Thơ hân hạnh phục vụ các bạn!</p>
+            </section>
+            <!-- Section: Text -->
+
+            <!-- Section: Links -->
+            <section class="">
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Thành Viên</h5>
+
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">Fa</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Ins</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Github</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Youtobe</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+          </div>
+          <!-- Grid container -->
+
+          <!-- Copyright -->
+          <div
+            class="text-center p-3"
+            style="background-color: rgba(0, 0, 0, 0.2)"
+          >
+            © 2020
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+      </div>
+    </div>
+
+    <!-- bootchap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- tooltips -->
+    <script>
+      var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    </script>
+
+    <!-- script-->
+    <script src="./Js/index.js"></script>
+    <script src="./Js/index.js"></script>
+  </body>
+</html>
